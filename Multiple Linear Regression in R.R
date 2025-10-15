@@ -29,3 +29,11 @@ Residual standard error: 1.381e-15 on 3 degrees of freedom
 Multiple R-squared:      1,	Adjusted R-squared:      1 
 F-statistic: 2.098e+31 on 1 and 3 DF,  p-value: < 2.2e-16
 
+Checking Assumptions
+# Plot residuals
+plot(model$residuals)
+Linearity: The relationship between the dependent and independent variables is linear.
+Independence: The residuals (errors) are independent of each other.
+Homoscedasticity: The variance of the errors is constant across all values of the independent variable(s).
+Normality of residuals: The residuals are normally distributed.
+
